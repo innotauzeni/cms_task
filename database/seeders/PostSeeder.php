@@ -14,7 +14,7 @@ class PostSeeder extends Seeder
     public function run(): void
     {
         Post::create([
-            'name' => 'Corporate Website',
+            'name' => 'Ilanding Website',
             'image' => 'uploads\banner_pro_task_1719280124.png',
             'type'=>'BANNER',
             'description' => 'We are a digital agency that helps brands to achieve their business outcomes. We see technology as a tool to create amazing things.'
