@@ -1,4 +1,4 @@
-# PROPERTYBOOK TECHNICAL TASK 2024
+# iLanding TECHNICAL TASK 2025
 
 AUTHOR: INNOCENT TAUZENI
 
@@ -15,10 +15,10 @@ AUTHOR: INNOCENT TAUZENI
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/telthemweb/PropertybookTask.git
+   git clone https://github.com/innotauzeni/cms_task.git
 
 
-cd PropertybookTask
+cd cms_task
 ## Install PHP dependencies:
  ```bash
   composer install

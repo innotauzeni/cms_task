@@ -15,7 +15,7 @@ AUTHOR: INNOCENT TAUZENI
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/telthemweb/cms_task.git
+   git clone https://github.com/innotauzeni/cms_task.git
 
 
 cd cms_task
