@@ -10,13 +10,15 @@ class PostController extends Controller
 {
     public function __construct()
     {
+        //if you not logged in this middleware will block you to view this page
         $this->middleware('auth');
     }
 
-    
+
 
     /**
      * Store a newly created resource in storage.
+     * post to database
      */
     public function store(Request $request)
     {
@@ -76,7 +78,7 @@ class PostController extends Controller
         if ($file = $request->file('image')) {
             if ($post->image) {
                 Storage::delete($post->image);
-            } 
+            }
 
             $full_file_name = $file->getClientOriginalName();
             $name = pathinfo($full_file_name, PATHINFO_FILENAME);

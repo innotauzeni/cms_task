@@ -12,19 +12,6 @@ class PricingSeeder extends Seeder
      */
     public function run(): void
     {
-        Package::create([
-            'title' => 'Starter',
-            'price' => '0'
-        ]);
 
-        Package::create([
-            'title' => 'Exclusive',
-            'price' => '99'
-        ]);
-
-        Package::create([
-            'title' => 'Premium',
-            'price' => '150'
-        ]);
     }
 }

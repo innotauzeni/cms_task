@@ -1,5 +1,5 @@
 <?php
-
+//Author Innocent Tauzeni
 namespace App\Http\Controllers;
 use App\Models\Post;
 use Illuminate\Http\Request;
